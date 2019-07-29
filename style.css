@@ -68,11 +68,7 @@
     padding-left: 100px;
   }
 }
-@media screen and (max-width: 940px) {
-  div#maintext {
-    min-width: 340px;
-  }
-}
+
 @media screen and (max-width: 640px){
   p {
     text-align: center;
