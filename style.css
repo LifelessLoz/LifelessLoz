@@ -73,6 +73,16 @@
     min-width: 340px;
   }
 }
+@media screen and (max-width: 640px){
+  p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 640px){
+  h4 {
+    text-align: center;
+  }
+}
 #heading {
   text-align: center;
   padding-bottom: 20px;
@@ -92,6 +102,8 @@
   max-width: 250px;
   text-align: center;
   position: relative;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 #grey_back{
   background-color: #F5F5F5;
