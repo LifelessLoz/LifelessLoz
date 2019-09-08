@@ -1,0 +1,199 @@
+.center {
+  margin: auto;
+  width: 50%;
+}
+@media screen and (max-width: 640px) {
+  h1.heading_top {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  h3.heading_top {
+    font-size: 20px;
+  }
+}
+.centerY {
+  position: relative;
+  top: 25%;
+}
+.container{
+  padding: 50px 50px;
+}
+.h1, .h3, h1, h3 {
+  color: #FFFFFF;
+  font-family: "Open Sans", Helvetica;
+}
+.h2, h2 {
+  text-align: center;
+  font-family: "Open Sans", Helvetica;
+  color: #383838;
+  font-size: 50px;
+}
+.h4, h4 {
+  font-family: "Open Sans", Helvetica;
+  color: #383838;
+  margin-bottom: 15px;
+}
+#profile_container{
+  max-width: 1000px;
+}
+#education_container {
+  max-width: 1000px;
+}
+#work_container {
+  max-width: 1000px;
+}
+@media screen and (min-width: 641px) {
+  div#profile_container {
+    padding-left: 100px;
+  }
+}
+@media screen and (min-width: 641px) {
+  div#education_container {
+    padding-left: 100px;
+  }
+}
+@media screen and (min-width: 641px) {
+  div#work_container {
+    padding-left: 100px;
+  }
+}
+@media screen and (min-width: 641px) {
+  div#referees_container {
+    padding-left: 100px;
+  }
+}
+@media screen and (min-width: 641px) {
+  div#other_interests_container {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 640px){
+  h4 {
+    text-align: center;
+  }
+}
+#heading {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #383838;
+}
+
+#bottom_heading {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+#profile_pic {
+  border-radius: 50%;
+  max-width: 250px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#grey_back{
+  background-color: #F5F5F5;
+}
+#dark_grey_back{
+  background-color: #424949;
+}
+.p, p{
+  font-family: "Open Sans", Helvetica;
+  color: #383838;
+}
+.jumbotron .container .h1, h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.jumbotron .container .h3, h3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 45px;
+}
+.jumbotron {
+  background: url(../images/lozillu2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  height: 100vh;
+}
+
+#scroll_button {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 4%;
+}
+
+@media screen and (min-width: 641px) {
+  nav.navbar-collapse {
+    margin-left: 3%;
+    margin-top: 3%;
+    background-color: #424949;
+    width: 70px;
+  }
+}
+@media screen and (max-width: 640px) {
+  nav.navbar-collapse {
+    background-color: #424949;
+  }
+}
+@media screen and (max-width: 640px) {
+  ul.navbar-nav {
+    background-color: #424949;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 640px) {
+  ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media screen and (min-width: 641px) {
+  ul#navbar_buttons {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  ul#navbar_buttons {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+}
+
+#interest_image {
+  height: 100%;
+}
+
+#interest_holder {
+  text-align: center;
+  max-height: 80px;
+  padding-bottom: 15px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
